@@ -16,12 +16,12 @@ public class MoviePickerApplication {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		JFrame roster = new JFrame("What movie should we watch?");
+		JFrame picker = new JFrame("What movie should we watch?");
 		// Adds picker to the window.
-		roster.add(new Picker());
-		roster.setSize(FRAME_WIDTH, FRAME_HEIGHT);
-		roster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		roster.setVisible(true);
+		picker.add(new Picker());
+		picker.setSize(FRAME_WIDTH, FRAME_HEIGHT);
+		picker.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		picker.setVisible(true);
 	}
 
 }
